@@ -1,7 +1,6 @@
 % LaTeX resume using res.cls
 \documentclass[margin]{res}
 \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font
 \setlength{\textwidth}{5.1in} % set width of text portion
 
 \begin{document}
@@ -16,18 +15,26 @@
  \moveleft.5\hoffset\centerline{90025, Los Angeles}
  \moveleft.5\hoffset\centerline{(310) 980--3503}
  \moveleft.5\hoffset\centerline{mathieu@comandon.org}
-
+ \moveleft.5\hoffset\centerline{http://mathieu.comandon.org}
 
 \begin{resume}
 
-\section{OBJECTIVE}  Developing Python applications with a focus on
-	Linux systems and Open Source technologies.
+\section{OBJECTIVE}  Building products in Python using Open Source technologies.
 
 \section{EXPERIENCE}
+{\sl Founder\/} \hfill 2015--present\\
+Lunchcraft.net, Los Angeles
+\begin{itemize} \itemsep -2pt
+    \item Started a kitchen management platform aiming for recipe recommendations and optimal pantry usage
+    \item Built a responsive frontend using Polymer, providing a native-like experience on all devices
+    \item Used Django REST Framework to build a completely independent backend and API
+    \item Wrote crawlers and parsers with Scrapy and BeautifulSoup to be able to index a majority of recipes available online
+\end{itemize}
+
 {\sl Lead developer\/} \hfill 2012--2015 \\
 BlookUp.com, Bordeaux
 \begin{itemize} \itemsep -2pt
-    \item Maintained and improved a Django application to import blogs and render them in PDF and epub format.
+    \item Maintained and improved a Django application to import blogs and render them in PDF and epub formats.
     \item Made extensive use of python libraries such as Celery, ReportLab and BeautifulSoup.
     \item Introduced code quality practices in the project: coding standards, unit testing, continuous integration.
     \item Worked with APIs from major blogging and social media platforms (Wordpress, Blogger, Facebook, Twitter, Instagram, …).
@@ -37,20 +44,21 @@ BlookUp.com, Bordeaux
 A2V.net, Bordeaux
 \begin{itemize}  \itemsep -2pt
     \item Built a daily deals website in Django for 2chezmoi.fr  (defunct project)
+    \item Built an online art gallery with integrated e-commerce using Mezzanine and Cartrige
     \item Built an e-commerce website with the Symfony framework for Boesner.fr
     \item Brought modern pratices to the development team (version control, issue tracking, continuous integration)
 \end{itemize}
 
 {\sl Intranet developer\/} \hfill 2007--2009 \\
 Areva, Montpellier
-\begin{itemize}  \itemsep -2pt
-    \item  Developed financial intranet applications using C\# and asp.NET
+\begin{itemize} \itemsep -2pt
+    \item Developed financial intranet applications using C\# and asp.NET
 \end{itemize}
 
 {\sl Q\&A technician\/} \hfill 2006 \\
 IBM, Montpellier
 \begin{itemize}  \itemsep -2pt
-    \item  Quality control of IBM Mainframes
+    \item Quality control of IBM Mainframes
 \end{itemize}
 
 {\sl Aftersales service technician\/} \hfill     2003--2005 \\
@@ -63,18 +71,17 @@ LDLC, Lyon
 {\sl Developer internship\/} \hfill 2002 \\
 INSA, Lyon
 \begin{itemize} \itemsep -2pt
-    \item  Ported an MS-Dos application to Windows using Visual C++ to make
+    \item Ported an MS-DOS application to Windows using Visual C++ to make
     measurements on photovoltaic samples.
 \end{itemize}
 
-
 \section{COMPUTER \\ SKILLS}
-    {\sl Languages \& Software:\/} Python, Bash, JavaScript, LessCSS, \\
-         basic knowledge of C and C++,  past experiences in PHP and C\#.\\ \\
+    {\sl Languages \& Software:\/} Python, Bash, JavaScript, \\
+        basic knowledge of C and C++, past experiences in PHP and C\#.\\ \\
     {\sl Frameworks \& toolkits:\/} Django, Flask, Polymer, GTK+, Bootstrap, Symfony\\ \\
-    {\sl Development tools:\/} git, bzr, jenkins, pylint, coverage, fabric\\ \\
-    {\sl System adminstration:\/} NGINX, Apache, MySQL, PostgreSQL, LXC, Postfix, Debian packaging
-
+    {\sl Development tools:\/} vim, git, jenkins, pylint, coverage, redmine\\ \\
+    {\sl System administration:\/} NGINX, Apache, MySQL, PostgreSQL, LXC, Postfix,
+        Debian packaging, Fabric, Ansible
 
 \section{EDUCATION}
     {\sl Bachelor's degree}, software analyst in client / server architecture.\\
@@ -91,12 +98,12 @@ INSA, Lyon
     {\sl Enhancing code quality}, Giroll Party \hfill 2012 \\
     {\sl Vim and friends, the toolbox of the developer}, Giroll Party \hfill 2012 \\
     {\sl Introduction to the Django framework}, Barcamp Bordeaux \hfill 2012 \\
-    {\sl Using Linux as your web development environmemt}, Giroll Party \hfill 2011
+    {\sl Using Linux as your web development environment}, Giroll Party \hfill 2011
 
 \section{ACTIVITIES}
     Founder of the Lutris open source gaming platform (https://lutris.net)\\
-Member of the Linux User Group of Bordeaux, Giroll (2010--2015)\\
-    {\sl Interests:\/} Music, cycling, cooking, video games.
+    Member of the Linux User Group of Bordeaux, Giroll (2010--2015)\\
+    {\sl Interests:\/} Music, cycling, cooking, gaming.
 
 \end{resume}
 \end{document}
