@@ -7,3 +7,6 @@ resume:
 
 upload:
 	scp resume.pdf strycore.com:~/homepage/
+
+clean:
+	rm *.pdf *.log
